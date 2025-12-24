@@ -1,0 +1,78 @@
+/*RESET*/
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*GLOBAL*/
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: gold;
+color:black;
+}
+
+/*HERO SECTION*/
+.hero{
+height:400px;
+background-image: url(images/hero.png);    
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+
+display:flex;
+align-items:center;
+padding:40px;
+}
+
+/*dark overlay for text to pop*/
+.hero::before{
+content: "";
+position: relative;
+inset: 0;
+background: rgba(0, 0, 0, 0.6);
+}
+
+.hero{
+position: relative;    
+}
+
+/*HERO CONTENT*/
+.hero-text{
+position:relative;
+max-width: 500px;
+}
+
+/*CTA BUTTON*/
+.cta-container{
+margin-top: 20px;
+display: flex;
+gap: 15px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.cta-btn{
+display: inline-block;
+padding: 14px 24px;
+margin-top: 25px;
+margin-bottom: 25px;
+background: #caa74d;
+color:#000;
+font-weight: bold;
+text-decoration: none;
+border-radius: 6px;
+transition: all 0.3s ease;
+}
+
+.cta-btn.secondary{
+display: inline-bock;
+padding: 14px 24px;
+margin-top: 25px;
+margin-bottom: 25px;
+background: #caa74d;
+color:#000;
+font-weight: bold;
+text-decoration: none;
+border-radius: 6px;
+transition: all 0.3s ease;}
