@@ -18,11 +18,18 @@ height:400px;
 background-image: url(images/hero.png);    
 background-size: contain;
 background-position: center;
+justify-content: center;
 background-repeat: no-repeat;
+
+
+.hero img{
+max-width: 200px;
+height: auto;
+}
 
 display:flex;
 align-items:center;
-padding:40px;
+padding:60px 0;
 }
 
 /*dark overlay for text to pop*/
@@ -39,9 +46,18 @@ position: relative;
 
 /*HERO CONTENT*/
 .hero-text{
+color: white;
 position:relative;
 max-width: 500px;
+text-align: center;
+padding: 40px 20px;
+margin-top: 300px;
 }
+
+.hero-text h1{
+margin-bottom: 20px;    
+}
+
 
 /*CTA BUTTON*/
 .cta-container{
