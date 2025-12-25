@@ -13,24 +13,46 @@ color:black;
 }
 
 /*HERO SECTION*/
-.hero{
-height:400px;
-background-image: url(images/hero.png);    
+.banner{
+height: 350px;
 background-size: contain;
 background-position: center;
 justify-content: center;
 background-repeat: no-repeat;
-
-
-.hero img{
-max-width: 200px;
-height: auto;
 }
 
-display:flex;
-align-items:center;
-padding:60px 0;
+.banner{
+text-align: center;
+padding: 30px 10px;
+background-color: gold;
+color: white;
 }
+
+.banner-img {
+width: 100%;
+max-height: 400px;
+object-fit: contain;
+border-radius: 10px;
+margin-top: 15px;
+}
+
+.banner h1{
+text-align: center;
+padding: 30px 10px;
+color: white;
+font-weight: 100px;
+background-color: #000;
+}
+
+.banner h2{
+text-align: center;
+padding: 30px 10px;
+color: white;
+background-color: #000;
+}
+
+
+
 
 /*dark overlay for text to pop*/
 .hero::before{
@@ -45,18 +67,22 @@ position: relative;
 }
 
 /*HERO CONTENT*/
-.hero-text{
-color: white;
+.hero-text h1{
 position:relative;
 max-width: 500px;
 text-align: center;
 padding: 40px 20px;
-margin-top: 300px;
+color: white;
 }
 
-.hero-text h1{
-margin-bottom: 20px;    
+.hero-text p{
+position: relative;
+max-width:500px;
+text-align: center;
+padding: 40px 20px;
+color: white;
 }
+
 
 
 /*CTA BUTTON*/
