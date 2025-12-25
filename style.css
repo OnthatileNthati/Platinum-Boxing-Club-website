@@ -14,14 +14,6 @@ color:black;
 
 /*HERO SECTION*/
 .banner{
-height: 350px;
-background-size: contain;
-background-position: center;
-justify-content: center;
-background-repeat: no-repeat;
-}
-
-.banner{
 text-align: center;
 padding: 30px 10px;
 background-color: gold;
