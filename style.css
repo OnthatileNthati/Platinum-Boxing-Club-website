@@ -85,11 +85,17 @@ border-radius: 6px;
 text-transform: uppercase;
 padding:14px 22px;
 border-radius: 6px;
+box-shadow: 0 4px 0 #8b0000;
 transition: all 0.3s ease;
 }
 
+.cta-btn:active{
+transform: translateY(2px);
+box-shadow: 0 2px 0 #8b0000;
+}
+
 .cta-btn.secondary{
-display: inline-bock;
+display: inline-block;
 padding: 14px 24px;
 margin-top: 25px;
 margin-bottom: 25px;
