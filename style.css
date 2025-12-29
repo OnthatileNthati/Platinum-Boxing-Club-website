@@ -148,10 +148,6 @@ border-radius: 6px;
 border:20px;
 }
 
-.discipline-card{
-display:grid;
-background: white;
-}
 
 .discipline-card h3{
 font-size: 1.4em;
@@ -166,13 +162,35 @@ color:black;
 text-align: center;
 }
 
+.disciplne-content{
+position: relative;
+z-index:2;
+height:100%;
+padding:3rem 2rem;
+color:white;
+text-align:center;
+background:black;
+display:flex;
+flex-direction:column;  
+justify-content:center;
+}
+
+
+
+
+
+
+
 .discipline-card{
-margin: 20px;
-padding: 20px;
-background: white;
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-transition: transform 0.3s ease;
+position: relative;
+min-height: 280px;
+margin:3rem 0;
+border-radius: 14px;
+overflow: hidden;
+color: black;
+background-color: white;
+object-fit: contain;
+object-position: no-repeat;
 }
 
 .discipline-card p{
@@ -192,7 +210,29 @@ max-width: 1000px;
 margin: 0 auto;
 }
 
+/*individual cards*/
 
+.Karate{
+background-image: url(images/karate.jpg);
+}
+
+.Boxing{
+background-image: url(images/boxing.jpg);
+background-position: top-center;
+background-size: contain;
+}
+
+.Muay-Thai{
+background-image:url(images/muay\ thai.jpg);
+background-position: top-center;
+background-size: contain;
+}
+
+.Jiu-Jitsu{
+background-image: url(images/bjj.jpg);
+background-position: top-center;
+background-size: contain;
+}
 
 
 
