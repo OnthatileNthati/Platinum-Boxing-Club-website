@@ -86,7 +86,7 @@ text-transform: uppercase;
 padding:14px 22px;
 box-shadow: 0 4px 0 #8b0000;
 transition: all 0.3s ease;
-
+box-align:center;
 }
 
 .cta-btn:active{
@@ -138,78 +138,46 @@ font-size: 1rem;
 
 /*Discipline Section*/
 
-.section-title{
-max-width: 850px;
-background-color: white;
-margin:60px auto;
-padding:30px 10px;
-text-align: center;
-padding-bottom: 24px;
-border-radius: 6px;
-border:20px;
-}
-
-
 .discipline-card h3{
 font-size: 1.4em;
 margin-bottom: 12px;
 text-transform: uppercase;
-}
-
-.discipline-container{
-padding:80px 20px;
-background: black;
-color:white;
 text-align: center;
 }
 
-.disciplne-content{
-position: relative;
-z-index:2;
-height:100%;
-padding:3rem 2rem;
+.discipline h2{
+margin: 0 0 15px;
+border-bottom: 2px solid transparent;
+padding-bottom: 5px;
 color:white;
 text-align:center;
-background:black;
-display:flex;
-flex-direction:column;  
-justify-content:center;
+border-radius: 6px ;
+background-color:red;
+border-bottom: 6px solid green;
+padding: 30px 10px;
+max-width: 850px;
+margin:60px auto;
+padding-bottom: 24px;
+border:20px;
 }
 
+.discipline p{
+text-align: center;
 
-
-
-
-
+}
 
 .discipline-card{
-position: relative;
-min-height: 280px;
-margin:3rem 0;
-border-radius: 14px;
-overflow: hidden;
+background-size: cover;
+background-position: center;
+border-radius: 16px;
+padding: 25px;
 color: white;
-background-color: white;
-object-fit: contain;
-object-position: no-repeat;
+position: relative;
+margin-top: 20px;
+margin: 60px auto;
+border: 20px;
 }
 
-.discipline-card p{
-color:white;
-font-size: 0.95rem;
-border-radius: 10px;
-text-decoration: none;
-transition: all 0.3s ease;
-border: 2px solid transparent;
-}
-
-.discipline-grid{
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 30px;
-max-width: 1000px;
-margin: 0 auto;
-}
 
 /*individual cards*/
 
@@ -219,24 +187,15 @@ background-image: url(images/karate.jpg);
 
 .Boxing{
 background-image: url(images/boxing.jpg);
-background-position: top-center;
-background-size: contain;
 }
 
 .Muay-Thai{
 background-image:url(images/muay\ thai.jpg);
-background-position: top-center;
-background-size: contain;
 }
 
 .Jiu-Jitsu{
 background-image: url(images/bjj.jpg);
-background-position: top-center;
-background-size: contain;
 }
-
-
-
 
 .discipline-card:hover{
 transform: translateY(-5px);
