@@ -206,7 +206,40 @@ transform: translateY(-5px);
 border-color: grey;
 }
  
- 
+/*gallery section*/
+
+.gym-floor{
+padding: 4rem 1.5rem;
+background-color:#111;
+color: black;
+text-align: center;
+}
+
+.section-title{
+font-size:2rem;
+margin-bottom: 2rem;
+color:#fff;
+}
+
+.gym-gallery{
+display: grid;  
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap:1rem;
+}
+
+.gym-gallery img{
+width:100%;
+height: 250px;
+object-fit:cover;
+border-radius: 12px;
+transition: all 0.3s ease;
+}
+
+.gym-gallery img:hover{
+transform: scale(1.03);
+}
+
+
 @media (max-width: 600px){
 .banner{min-height: auto;}
 }
