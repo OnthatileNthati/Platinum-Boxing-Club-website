@@ -299,9 +299,34 @@ gap:0.5rem;
 }
 
 
+/*individual pages About*/
+.Bjj-about{
+max-width: 850px;
+background-color: white;
+color: #000;
+margin:60px auto;
+padding:30px 10px;
+text-align: center;
+padding-bottom: 24px;
+border-radius: 6px;
+border:20px;
+}
 
 
-
+.Bjj-about h1{
+margin: 0 0 15px;
+border-bottom: 2px solid transparent;
+padding-bottom: 5px;
+color:white;
+text-align:center;
+border-radius: 6px ;
+border-bottom: 6px solid green;
+padding: 30px 10px;
+max-width: 850px;
+margin:60px auto;
+padding-bottom: 24px;
+border:20px;
+}
 
 
 
