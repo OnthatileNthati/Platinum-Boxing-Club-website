@@ -182,6 +182,24 @@ height:300px;
 width:300px;
 }
 
+/*GRID TEST*/
+.discipline-grid{
+display: grid;
+gap: 2rem;
+padding: 2rem;
+}
+
+.discipline-card{
+    width: 100%;
+
+
+
+
+}
+
+
+
+
 
 /*individual cards*/
 
@@ -328,20 +346,6 @@ padding-bottom: 24px;
 border:20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 600px){
 .banner{min-height: auto;}
 }
@@ -355,4 +359,21 @@ border:20px;
  .footer-bottom{
  justify-content: center;
  text-align: center;   
+ }
+ }
+
+ /*DESKTOP STRETCH*/
+ @media (min-width: 1024px){
+ .discipline-grid{
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ }
+
+ /*MOBILE STACKED*/
+ @media (max-width: 768px){
+ .discipline-grid{
+    grid-template-columns: 1fr;
+ }
  }
