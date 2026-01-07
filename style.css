@@ -178,9 +178,25 @@ margin-top: 20px;
 margin: 60px auto;
 border: 20px;
 /*discipline card height and width, game changer*/
-height:300px; 
-width:300px;
+height:400px; /*COME HERE FOR HEIGHT AND WIDTH*/
+width: 500px;
 }
+
+.discipline-grid{
+display: flex;  
+grid-template-columns: repeat(3, 1fr);
+gap:2rem;
+outline: 3px solid red;
+}
+
+.discipline-card{
+outline: 3px solid blue;
+}
+
+
+
+
+
 
 
 
@@ -348,3 +364,14 @@ border:20px;
  }
  }
 
+
+ /*LAPTOP AND BIGGER SCREEN SIZES*/
+@media (max-width: 1024px){
+ .discipline-grid{
+    display: flex;
+    gap:2rem;
+ }
+
+ .discipline-card{ 
+    flex: 1;
+ }
