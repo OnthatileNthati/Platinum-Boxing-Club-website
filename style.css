@@ -375,3 +375,15 @@ border:20px;
  .discipline-card{ 
     flex: 1;
  }
+
+ /*PHONE STYLES*/
+ @media (max-width: 600px){
+    .discipline-grid{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .discipline-card{
+        flex: 1;
+    }
+ }
