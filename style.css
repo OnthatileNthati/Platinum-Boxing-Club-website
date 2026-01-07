@@ -182,10 +182,6 @@ height:300px;
 width:300px;
 }
 
-.discipline-card{
-    width: 100%;
-   
-}
 
 
 
@@ -352,13 +348,3 @@ border:20px;
  }
  }
 
- /*DESKTOP STRETCH*/
- @media (min-width: 1024px){
- .discipline-grid{
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
-    margin: 0 auto;
- }
- }
-
- 
