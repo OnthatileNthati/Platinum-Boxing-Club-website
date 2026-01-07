@@ -182,19 +182,9 @@ height:300px;
 width:300px;
 }
 
-/*GRID TEST*/
-.discipline-grid{
-display: grid;
-gap: 2rem;
-padding: 2rem;
-}
-
 .discipline-card{
     width: 100%;
-
-
-
-
+   
 }
 
 
@@ -371,9 +361,4 @@ border:20px;
  }
  }
 
- /*MOBILE STACKED*/
- @media (max-width: 768px){
- .discipline-grid{
-    grid-template-columns: 1fr;
- }
- }
+ 
