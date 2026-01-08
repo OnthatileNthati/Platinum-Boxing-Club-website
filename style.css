@@ -88,7 +88,6 @@ padding:14px 22px;
 box-shadow: 0 4px 0 #8b0000;
 transition: all 0.3s ease;
 box-align:center;
-margin-right::
 }
 
 .cta-btn:active{
@@ -187,8 +186,6 @@ width: 400px;
 display: flex;  
 grid-template-columns: repeat(3, 1fr);
 gap:2rem;
-outline: 3px solid red;
-
 }
 
 .discipline-card{
