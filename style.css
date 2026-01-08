@@ -367,7 +367,7 @@ border:20px;
 
 
  /*LAPTOP AND BIGGER SCREEN SIZES*/
-@media (max-width: 500px){
+@media (max-width: 1024px){
     .discipline-grid{
         gap: 2rem;}
     }
@@ -387,7 +387,7 @@ border:20px;
 
     .discipline-card{
         flex: none;
-        height: 300px; /*COME HERE FOR HEIGHT AND WIDTH*/
-        width: 400px;
+        height: 200px; /*COME HERE FOR HEIGHT AND WIDTH*/
+        width: 300px;
     }
  }
