@@ -374,8 +374,8 @@ border:20px;
 
  .discipline-card{ 
     flex: none;
-    height:400px; /*COME HERE FOR HEIGHT AND WIDTH*/
-    width: 500px;
+    height: 600px; /*COME HERE FOR HEIGHT AND WIDTH*/
+    width: 700px;
  }
 
  /*PHONE STYLES*/
@@ -386,7 +386,7 @@ border:20px;
     }
 
     .discipline-card{
-        flex: 1;
+        flex: none;
         height: 300px; /*COME HERE FOR HEIGHT AND WIDTH*/
         width: 400px;
     }
