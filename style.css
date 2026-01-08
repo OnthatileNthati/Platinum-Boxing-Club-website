@@ -88,6 +88,7 @@ padding:14px 22px;
 box-shadow: 0 4px 0 #8b0000;
 transition: all 0.3s ease;
 box-align:center;
+margin-right::
 }
 
 .cta-btn:active{
@@ -376,7 +377,9 @@ border:20px;
     flex: none;
     height: 600px; /*COME HERE FOR HEIGHT AND WIDTH*/
     width: 700px;
- }
+}
+
+
 
  /*PHONE STYLES*/
  @media (max-width: 600px){
