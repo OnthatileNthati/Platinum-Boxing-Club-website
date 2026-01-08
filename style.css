@@ -373,7 +373,7 @@ border:20px;
     }
 
  .discipline-card{ 
-    flex: 1;
+    flex: none;
     height:400px; /*COME HERE FOR HEIGHT AND WIDTH*/
     width: 500px;
  }
