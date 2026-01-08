@@ -178,8 +178,8 @@ margin-top: 20px;
 margin: 60px auto;
 border: 20px;
 /*discipline card height and width, game changer*/
-height:400px; /*COME HERE FOR HEIGHT AND WIDTH*/
-width: 500px;
+height: 300px; /*COME HERE FOR HEIGHT AND WIDTH*/ 
+width: 400px;
 }
 
 .discipline-grid{
@@ -187,6 +187,7 @@ display: flex;
 grid-template-columns: repeat(3, 1fr);
 gap:2rem;
 outline: 3px solid red;
+
 }
 
 .discipline-card{
@@ -374,6 +375,8 @@ border:20px;
 
  .discipline-card{ 
     flex: 1;
+    height:400px; /*COME HERE FOR HEIGHT AND WIDTH*/
+    width: 500px;
  }
 
  /*PHONE STYLES*/
@@ -385,5 +388,7 @@ border:20px;
 
     .discipline-card{
         flex: 1;
+        height: 300px; /*COME HERE FOR HEIGHT AND WIDTH*/
+        width: 400px;
     }
  }
