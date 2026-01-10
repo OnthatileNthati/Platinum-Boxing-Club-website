@@ -213,12 +213,45 @@ outline: 3px solid blue;
 }
 
 
+.discipline-section{
+background: white;
+color:black;
+padding:40px 20px;
+max-width:700px;
+margin:50px auto;
+border-radius:12px;
+text-align:center;
+box-shadow:0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.discipline-section h2{
+font-size:28px;
+margin-bottom:20px;
+}
+
+.discipline-section p{
+font-size:18px;
+margin-bottom:45px;
+line-height:1;
+}
+
+.discipline-section ul{
+list-style:disc;
+padding-left:20px;
+text-align:left;
+margin-bottom:25px;
+}
+.discipline-section ul li{
+margin-bottom:10px;
+font-size:16px;
+color:black;
+}
 
 
+.discipline-section:hover{
+translate: translateY(-4px);
 
-
-
-
+}
 
 
 
