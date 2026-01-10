@@ -65,30 +65,37 @@ font-weight: 500;
 
 
 /*CTA BUTTON*/
-.cta-container{
-margin-top: 20px;
-display: flex;
-gap: 15px;
-justify-content: center;
-flex-wrap: wrap;
-}
+
 
 .cta-btn{
-display: inline-block;
-padding: 14px 24px;
-margin-top: 25px;
-margin-bottom: 25px;
+display: flex;
+gap: 15px;
+margin:20px auto;
+max-width: 200px;
+flex-direction: column;
+align-items: center;
+
+align-items: center;
+justify-content: center;
+
+width: 100%;
+min-height: 52px;
+
+padding: 14px;
+text-align: center;
+
+border-radius: 8px;
 background: red;
-color:#000;
-font-weight: 600;
+color: black;
 text-decoration: none;
-border-radius: 6px;
-text-transform: uppercase;
-padding:14px 22px;
-box-shadow: 0 4px 0 #8b0000;
-transition: all 0.3s ease;
-box-align:center;
+font-weight: 600;
+
+box-sizing: border-box;
+box-shadow:dark red;
 }
+
+
+
 
 .cta-btn:active{
 transform: translateY(2px);
@@ -96,16 +103,30 @@ box-shadow: 0 2px 0 #8b0000;
 }
 
 .cta-btn.secondary{
-display: inline-block;
-padding: 14px 24px;
-margin-top: 25px;
-margin-bottom: 25px;
-background:red;
-color:#000;
-font-weight: bold;
+display: flex;
+gap: 15px;
+margin:20px auto;
+max-width: 200px;
+flex-direction: column;
+align-items: center;
+
+align-items: center;
+justify-content: center;
+
+width: 100%;
+min-height: 52px;
+
+padding: 14px;
+text-align: center;
+
+border-radius: 8px;
+background: red;
+color: black;
 text-decoration: none;
-border-radius: 6px;
-transition: all 0.3s ease;
+font-weight: 600;
+
+box-sizing: border-box;
+transition:all 0.3s ease;
 }
 
 .cta-btn:hover{
@@ -164,7 +185,7 @@ border:20px;
 
 .discipline p{
 text-align: center;
-
+color: white;
 }
 
 .discipline-card{
