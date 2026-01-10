@@ -91,7 +91,7 @@ text-decoration: none;
 font-weight: 600;
 
 box-sizing: border-box;
-box-shadow:dark red;
+box-shadow:#8b0000;
 }
 
 
@@ -99,7 +99,6 @@ box-shadow:dark red;
 
 .cta-btn:active{
 transform: translateY(2px);
-box-shadow: 0 2px 0 #8b0000;
 }
 
 .cta-btn.secondary{
