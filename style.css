@@ -387,17 +387,22 @@ color: black;
 }
 
 .trainer-gallery{
-display: column;  
+display: grid;  
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 gap:1rem;
 }
 
 .trainer-gallery img{
+    /*Image center*/
+display: block;
+margin: 0 auto;
+max-width: 100%;
 width:245px;
 height: 300px;
-object-fit:cover;
+
 border-radius: 12px;
 transition: all 0.3s ease;
+
 }
 
 .trainer-gallery img:hover{
@@ -407,7 +412,7 @@ transform: scale(1.03);
 .trainer-gallery h3{
 font-size: 1.5rem;
 margin-top: 10px;
-text-align: above; 
+text-align: none; 
 color:white;
 }
 
