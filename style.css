@@ -370,6 +370,56 @@ flex-wrap: wrap;
 gap:0.5rem;
 }
 
+/*Coach Gallery section*/
+
+.section-title{
+font-size:2rem;
+margin-bottom: 2rem;
+color:#fff;
+text-align: center;
+}
+
+.trainers{
+padding: 4rem 1.5rem;
+background-color:#111;
+color: black;
+
+}
+
+.trainer-gallery{
+display: column;  
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap:1rem;
+}
+
+.trainer-gallery img{
+width:245px;
+height: 300px;
+object-fit:cover;
+border-radius: 12px;
+transition: all 0.3s ease;
+text-align:left;
+}
+
+.trainer-gallery img:hover{
+transform: scale(1.03);
+}
+
+.trainer-gallery h3{
+font-size: 1.5rem;
+margin-top: 10px;
+text-align: above; 
+color:white;
+}
+
+
+
+
+
+
+
+
+
 
 /*individual pages About*/
 .Bjj-about{
