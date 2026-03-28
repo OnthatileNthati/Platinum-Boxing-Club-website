@@ -645,3 +645,11 @@ body {
   .section-title { font-size: 1.8rem; }
   .banner h1 { font-size: 2.5rem; }
 }
+
+@media (max-width: 780px) {
+  .fade-in
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
